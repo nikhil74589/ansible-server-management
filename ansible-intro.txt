@@ -31,8 +31,3 @@ Ansible automates infrastructure and server management using YAML allowing you t
 server from on place 
 
 
-cp "/mnt/c/Users/Nikhil Ranjan/Downloads/teceon-server_key.pem" ~/.ssh/teceon-server_key.pem
-cp "/mnt/c/Users/Nikhil Ranjan/Downloads/orbax-server_key.pem" ~/.ssh/orbax-server_key.pem
-
-chmod 400 ~/.ssh/teceon-server_key.pem
-chmod 400 ~/.ssh/orbax-server_key.pem
