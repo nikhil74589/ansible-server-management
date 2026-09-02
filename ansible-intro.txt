@@ -1,0 +1,38 @@
+What ia Ansible
+
+Ansible is a agentless automation tool used to manage and automate multiple servers
+for one central machine it is highly used in industry for server-management compliance management
+and for security purpose.
+
+Main Components of Ansible
+
+Control Node : Machine where Ansible runs (local machine ,server)
+Managed Nodes : Server control by ansibles
+Inventory : List of servers
+Playbook : Main YAML automation file 
+Tasks : Individual jobs to perform some dedicated actions in servers:
+Modules: Built-in tools such as apt, service , user and file.
+Variables : Configuration values used by Playbooks
+
+Used Cases :
+
+Install and update applications
+Deploy applications
+Manage users and permissions (RBAC,ACL)
+Configure server compliance
+Patching
+Manage Services
+Security compliance
+Monitor applications install and versions
+
+Interview Answer
+
+Ansible automates infrastructure and server management using YAML allowing you to Control many
+server from on place 
+
+
+cp "/mnt/c/Users/Nikhil Ranjan/Downloads/teceon-server_key.pem" ~/.ssh/teceon-server_key.pem
+cp "/mnt/c/Users/Nikhil Ranjan/Downloads/orbax-server_key.pem" ~/.ssh/orbax-server_key.pem
+
+chmod 400 ~/.ssh/teceon-server_key.pem
+chmod 400 ~/.ssh/orbax-server_key.pem

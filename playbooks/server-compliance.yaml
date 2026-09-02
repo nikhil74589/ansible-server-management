@@ -1,0 +1,11 @@
+---
+- name: Update Package cache on all managed servers
+  hosts: servers
+  become: true
+  gather_facts: true
+
+  tasks:
+    - name: Ensure APT Package cache is updated
+      ansible.builtin.apt:
+        update_cache: true
+        cache_valid_time: 3600
