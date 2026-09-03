@@ -30,4 +30,3 @@ Interview Answer
 Ansible automates infrastructure and server management using YAML allowing you to Control many
 server from on place 
 
-
