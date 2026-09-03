@@ -1,0 +1,9 @@
+applications:
+  - name: nginx
+    version_command: "nginx -v"
+  
+  - name: docker
+    version_command: "docker --version"
+
+  - name: python3
+    version_command: "python3 --version"
